@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+header{
+    height: 500px;
+    width: 100%;
+    background: url(assets/head-img.jpg) 50% 90%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+}
+
+ul{
+    position: relative;
+    top: 20px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    height: 40px;
+    width: 950px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #8a8a8a , #686868 50%, #595959 50%, #757575 100%);
+    font-size: 12px;
+}
+
+li{
+    float: left;
+    color: white;
+    width: 100px;
+    border-right: 1px solid #333333;
+}
+
+li:hover{
+    background: #333333;
+}
+
+li a{
+    position: relative;
+    bottom: 3px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li i{
+    position: relative;
+    font-size: 16px;
+}
+
+input{
+    position: relative;
+    top: 10px;
+    right: 8px;
+    width: 110px;
+    border-radius: 10px;
+    background: none;
+}
+
+input:focus{
+    background: white;
+}
+
+.fa-search{
+    position: relative;
+    top: 10px;
+    left: 14px;
+}
+
+#first-heading{
+    position: relative;
+    top: 20px;
+    font-size: 62px;
+}
+
+#second-heading{
+    position: relative;
+    font-size: 32px;
+}
+
+#third-heading{
+    position: relative;
+    font-size: 24px;  
+    color: white;
+    text-decoration: none;
+}
+
+#third-heading:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+    margin-top: 2px;
+    height: 175px;
+    width: 100%;
+}
+
+#section-one{
+    background: url(assets/main-img-one.jpg) 50% 55%;
+}
+
+#section-two{
+    background: url(assets/main-img-two.jpg) 50% 55%;
+}
+
+#section-three{
+    background: url(assets/main-img-three.jpg) 50% 55%;
+}
+
+#section-four{
+    background: url(assets/main-img-four.jpg) 50% 55%;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    font-size: 10px;
+    color: #535251;
+    line-height: 1.8;
+}
+
+footer a{
+    color: #08c;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+#link-list{
+    position: relative;
+    right: 40px;
+    bottom: 42px;
+    float: right;
+}
+
+#usa{
+    position: relative;
+    top: 5px;
+}

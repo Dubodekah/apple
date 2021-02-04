@@ -1,0 +1,1 @@
+Clone of an old apple page done for The Odin Project. Pretty easy!
